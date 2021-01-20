@@ -1,0 +1,49 @@
+div.info_div div h1 {
+	font-size: 70px;
+	padding-top: 30px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-top: 50px;
+}
+
+div.info_div>div>hr {
+	height: 20px;
+	border: none;
+	border-top: 10px double #f4adad;
+}
+
+div.pwd_original {
+	margin: 10px 10px 30px 200px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div.pwd_update {
+	margin: 10px 10px 10px 200px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div.pwd_update_comfirm {
+	margin: 10px 10px 10px 200px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+span#all_span {
+	margin-left: 200px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+button#submit_btn {
+	margin-left: 200px;
+	background-color: #f5bc07;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

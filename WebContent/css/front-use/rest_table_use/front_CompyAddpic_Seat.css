@@ -1,0 +1,32 @@
+div.info_div div h1 {
+	font-size: 70px;
+	padding-top: 30px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-top: 50px;
+}
+
+div.info_div>div>hr {
+	height: 20px;
+	border: none;
+	border-top: 10px double #f4adad;
+}
+
+div.info_logo_info_out {
+	display: inline-block;
+}
+
+div.info_div_in_logo {
+	margin-left: 25px;
+}
+
+div.logo_info {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div.seat_div {
+	height: 1000px;
+	width: 1240px;
+}

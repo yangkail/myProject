@@ -1,0 +1,110 @@
+div.info_div div h1 {
+	font-size: 70px;
+	padding-top: 30px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-top: 50px;
+}
+
+div.info_div>div>hr {
+	height: 20px;
+	border: none;
+	border-top: 10px double #f4adad;
+}
+
+div.info_logo_info_out {
+	display: inline-block;
+}
+
+div.info_div_in_logo {
+	margin-left: 25px;
+}
+
+div.logo_info {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div.logo_display {
+	width: 230px;
+	height: 230px;
+	border: 15px solid #f5c704;
+	border-radius: 50%;
+	overflow: hidden;
+	text-align: center;
+	display: inline-block;
+	border-style: double;
+}
+
+img.logo_display_img {
+	width: 100%;
+	height: 100%;
+}
+
+div.info_div_in_info {
+	margin-left: 10px;
+	vertical-align: top;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	display: inline-block;
+}
+
+div.info_div_in_business {
+	display: inline-block;
+}
+
+div.info_business {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 25px;
+}
+
+div.info_business_word {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div.info_business_display {
+	width: 400px;
+	height: 550px;
+	text-align: center;
+	border: 7px solid #898988;
+	border-style: double;
+}
+
+img.info_business_display_img {
+	width: 100%;
+	height: 100%;
+}
+
+div.info_update_pic {
+	display: inline-block;
+	margin-top: 60px;
+}
+
+
+div.update_bigpic_info {
+	font-size: 30px;
+	display: inline-block;
+}
+
+div.update_logo_info {
+	font-size: 30px;
+	display: inline-block;
+}
+
+table.info_table {
+	font-size: 20px;
+}
+
+table.info_table tr td {
+	width: 220px;
+}
+tr.tr_not_do_some{
+	height: 50px;
+}
+tr.tr_not_do_some td{
+	border-top: 5px solid #dadb8d;
+}

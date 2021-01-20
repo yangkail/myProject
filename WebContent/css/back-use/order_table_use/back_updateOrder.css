@@ -1,0 +1,11 @@
+div.order_qrcode_diaplay {
+	margin: 15px 0 0 0;
+	border: 2px solid blue;
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+}
+
+.qrcode_img {
+	max-width: 100%;
+}

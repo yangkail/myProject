@@ -1,0 +1,116 @@
+div.div_out {
+	display: inline-block;
+}
+
+div.div_submit {
+	display: inline-block;
+	vertical-align: top;
+}
+
+div.div_content {
+	position: relative;
+	border: 2px solid black;
+	margin: 15px auto;
+	background-color: #e5a3a3b8;
+}
+
+div.div_content1 {
+	display: inline-block;
+}
+
+div.div_content1 ul li {
+	list-style-type: none;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div.info_display1 {
+	display: inline-block;
+	width: 500px;
+}
+
+div.info_display2 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+div.search_div {
+	font-size: 40px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div.no_search_div {
+	text-align: center;
+}
+
+div.no_search_div img {
+	width: 1000px;
+	height: 370px;
+}
+
+div.btns {
+	margin-bottom: 15px;
+	margin-top: 50px;
+    float: right;
+}
+
+button.audit_btn {
+	font-size: 30px;
+	background-color: red;
+	color: white;
+}
+
+button.cancel_btn {
+	font-size: 30px;
+}
+
+button.cancel_btn a {
+	text-decoration: none;
+	color: black;
+}
+
+div.display_bigpic {
+	width: 200px;
+	height: 200px;
+	border: 15px solid #f5c704;
+	border-radius: 50%;
+	overflow: hidden;
+	text-align: center;
+	display: inline-block;
+	border-style: double;
+	vertical-align: top;
+	margin: 10px 0 0 200px;
+}
+
+div.display_view {
+	margin: 20px 0 0 40px;
+}
+
+div.display_bigpic img {
+	width: 100%;
+	height: 100%;
+}
+
+div.display_view_img {
+	width: 270px;
+	height: 270px;
+	display: inline-block;
+}
+
+div.display_view_img img {
+	width: 100%;
+	height: 100%;
+}
+
+div.just_a_word {
+	margin: 20px 0 0 40px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+div.title_word{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

@@ -1,0 +1,121 @@
+div.info_div div h1 {
+	font-size: 70px;
+	padding-top: 30px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-top: 50px;
+}
+
+div.info_div>div>hr {
+	height: 20px;
+	border: none;
+	border-top: 10px double #f4adad;
+}
+
+div.rs_info {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div.rs_big_pic_display {
+	width: 230px;
+	height: 230px;
+	border: 15px solid #f5c704;
+	border-radius: 50%;
+	overflow: hidden;
+	text-align: center;
+	display: inline-block;
+	border-style: double;
+}
+
+img.rs_big_pic_display_img {
+	width: 100%;
+	height: 100%;
+}
+
+div.submit_btn {
+	float: right;
+}
+
+input.submit_input, input.reset_input {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+input.submit_input {
+	background-color: red;
+	color: white;
+}
+
+table.info_table tr td.title {
+	width: 180px;
+}
+
+table.info_table tr td.info {
+	width: 350px;
+	text-align: left;
+}
+
+tr.tr_not_do_some {
+	height: 20px;
+}
+
+tr.tr_not_do_some td {
+	border-top: 5px solid #dadb8d;
+}
+
+div.rs_info_display {
+	display: inline-block;
+}
+
+div.big_pic {
+	display: inline-block;
+	vertical-align: top;
+	width: 300px;
+	height: 300px;
+	border: 15px solid #f5c704;
+	border-radius: 50%;
+	overflow: hidden;
+	text-align: center;
+	display: inline-block;
+	border-style: double;
+	margin-left: 80px;
+}
+
+div.big_pic img.big_pic_img {
+	width: 100%;
+	height: 100%;
+}
+
+div.view_pic_display {
+	display: inline-block;
+}
+
+
+div.view_pic_display img.view_pic_display_img {
+	width: 200px;
+	height: 133px;
+}
+
+div.pic {
+	text-align: center;
+	border: 2px solid;
+	height: 400px;
+}
+
+div.pic img.pic_display_img{
+	width: 100%;
+	height: 100%;
+}
+
+div.btn_display{
+	float: right;
+    margin-top: 10px;
+}
+
+div.btn_display input.submit_btn{
+    background-color: red;
+    color: white;
+}

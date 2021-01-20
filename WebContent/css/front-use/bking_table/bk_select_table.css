@@ -1,0 +1,65 @@
+/* �� CSS */
+/* * {
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+} */
+body{
+  font-family: Microsoft JhengHei;
+  margin: 0;
+ 
+}
+div.drag_drop{
+  
+  position:relative;
+  box-sizing: border-box;
+  font-size: 30px;
+}
+div.drop_panel{
+  /* position:fixed; */
+  position: relative;
+  width: 300px;
+  height: 200px;
+}
+div.tab_panel{
+ 
+  /* position:fixed; */
+  background: -webkit-linear-gradient(top, transparent 39px, rgb(0, 0, 0) 40px),
+  -webkit-linear-gradient(left, transparent 39px, rgb(0, 0, 0) 40px);
+  background-size: 40px 40px;
+  background-color: #ffffff;
+  /* padding:10px;
+  margin-bottom:5px; */
+  /* border:solid black; */
+  float: left;
+  width: 1200px;
+  height: 300px;
+  margin: 0 52px;
+}
+div.title_header_papa{
+ 
+  position: relative;
+}
+
+
+
+.-none{
+  display: none;
+}
+
+
+button.btn.btn-outline-danger{
+  flex-grow: 1;
+  outline: none;
+  height: 40px;
+  font-size: 1.6rem;
+  
+  cursor: pointer;
+  border: 1px solid #eee;
+}
+#restaurant {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}

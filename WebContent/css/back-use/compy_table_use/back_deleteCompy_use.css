@@ -1,0 +1,97 @@
+    div.div_out {
+	display: inline-block;
+}
+
+div.div_submit {
+	display: inline-block;
+	vertical-align: top;
+}
+
+div.div_content {
+	position: relative;
+	background-color: darkgray;
+	border: 2px solid black;
+	margin: 15px auto;
+}
+
+div.div_content1 {
+	display: inline-block;
+}
+
+div.div_content2 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+div.div_content3 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+div.div_content1 ul li {
+	list-style-type: none;
+}
+
+div.div_content2 ul li {
+	list-style-type: none;
+}
+
+div.div_content3 ul li {
+	list-style-type: none;
+}
+
+ul.button_ul {
+	list-style-type: none;
+	position: absolute;
+	bottom: 0px;
+	right: 10px;
+}
+
+ul.button_ul li {
+	display: inline-block;
+}
+.compy_delete_btn{
+    background-color: red;
+}
+div.cp_business_diaplay {
+	margin: 15px 0 0 0;
+	border: 2px solid;
+	width: 300px;
+	height: 400px;
+	text-align:center;
+}
+
+div.cp_logo_display {
+	margin: 15px 0 0 0;
+	border: 2px solid;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	text-align:center;
+}
+
+div.cp_bigpic_display {
+	margin: 15px 0 0 0;
+	border: 2px solid;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	text-align:center;
+}
+
+.pic_img {
+	width: 100%;
+	height: 100%;
+}
+
+.pic_img_cycle {
+	width: 100%;
+    height: 100%;
+}
+div.title_word{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+	<display-name>TEA102G1</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<resource-ref>
+		<description>DB Connection</description>
+		<res-ref-name>jdbc/TestDB</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+	
+	<servlet>
+		<servlet-name>Order_TableServlet</servlet-name>
+		<servlet-class>com.order_table.controller.Order_TableServlet</servlet-class>
+	</servlet>
+  	<servlet-mapping>
+		<servlet-name>Order_TableServlet</servlet-name>
+		<url-pattern>/back-end/order_table/order_table.do</url-pattern>
+	</servlet-mapping>
+	
+  	<servlet>
+		<servlet-name>Point_TableServlet</servlet-name>
+		<servlet-class>com.point_table.controller.Point_TableServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Point_TableServlet</servlet-name>
+		<url-pattern>/back-end/point_table/point_table.do</url-pattern>
+	</servlet-mapping>
+	
+  <servlet>
+		<servlet-name>Guest_TableServlet</servlet-name>
+		<servlet-class>com.guest_table.controller.Guest_TableServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Guest_TableServlet</servlet-name>
+		<url-pattern>/Guest_Table/Guest_Table.do</url-pattern>
+	</servlet-mapping>
+  
+  <servlet>
+		<servlet-name>Feedback_TableServlet</servlet-name>
+		<servlet-class>com.feedback_table.controller.Feedback_TableServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Feedback_TableServlet</servlet-name>
+		<url-pattern>/Feedback_Table/Feedback_Table.do</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>Booking_fixed_tableServlet</servlet-name>
+		<servlet-class>com.booking_fixed_table.controller.Booking_Fixed_TableServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Booking_fixed_tableServlet</servlet-name>
+		<url-pattern>/booking_fixed_table/booking_fixed_table.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Rest_Seat_Coordinate_TableServlet</servlet-name>
+		<servlet-class>com.rest_seat_coordinate.controller.Rest_Seat_Coordinate_TableServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Rest_Seat_Coordinate_TableServlet</servlet-name>
+		<url-pattern>/rest_seat_coordinate_table/rest_seat_coordinate_table.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Booking_Ing_TableServlet</servlet-name>
+		<servlet-class>com.booking_ing_table.controller.Booking_Ing_TableServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Booking_Ing_TableServlet</servlet-name>
+		<url-pattern>/booking_ing_table/booking_Ing_TableServlet.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Booking_Ing_Seat_OrderServlet</servlet-name>
+		<servlet-class>com.booking_ing_table.controller.Booking_Ing_Seat_OrderServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Booking_Ing_Seat_OrderServlet</servlet-name>
+		<url-pattern>/booking_ing_table/booking_Ing_Seat_OrderServlet.do</url-pattern>
+	</servlet-mapping>
+
+	<filter>
+		<filter-name>LoginFilter</filter-name>
+		<filter-class>com.filter.LoginFilter</filter-class>
+	</filter>
+	
+	<filter-mapping>
+		<filter-name>LoginFilter</filter-name>
+		<url-pattern>/back-end/user/page/select_page.jsp</url-pattern>
+		<url-pattern>/back-end/user/page/addUser.jsp</url-pattern>
+		<url-pattern>/back-end/user/page/listAllEmp.jsp</url-pattern>
+		<url-pattern>/back-end/Ad_Table/Ad_TableSelect_page.jsp</url-pattern>		
+		<url-pattern>/back-end/Feedback_Table/listAllFeedback.jsp</url-pattern>		
+		<url-pattern>/back-end/order_table/select_page.jsp</url-pattern>		
+		<url-pattern>/back-end/point_table/select_page.jsp</url-pattern>		
+		<url-pattern>/back-end/Guest_Table/listAllGuest.jsp</url-pattern>		
+		<url-pattern>/back-end/compy_table/compy_backall.jspp</url-pattern>		
+		<url-pattern>/back-end/rest_table/rest_backall.jsp</url-pattern>
+		<dispatcher>FORWARD</dispatcher>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>INCLUDE</dispatcher>
+	</filter-mapping>
+
+
+	<filter>
+		<filter-name>GuestLoginFilter</filter-name>
+		<filter-class>com.filter.GuestLoginFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>GuestLoginFilter</filter-name>
+		<url-pattern>/front-end/Guest_Table/guest_profile1.jsp</url-pattern>
+		<url-pattern>/front-end/Guest_Table/credit.jsp</url-pattern>
+		<url-pattern>/front-end/Guest_Table/guest_profileorder.jsp</url-pattern>
+		<url-pattern>/front-end/Guest_Table/guest_profileordercan.jsp</url-pattern>
+		<url-pattern>/front-end/Guest_Table/guest_profileordercomplt.jsp</url-pattern>
+		<url-pattern>/front-end/Guest_Table/update_gs_profile.jsp</url-pattern>
+		<url-pattern>/front-end/Guest_Table/addCredit.jsp</url-pattern>
+		<url-pattern>/front-end/Guest_Table/changePWD.jsp</url-pattern>
+	
+		<dispatcher>FORWARD</dispatcher>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>INCLUDE</dispatcher>
+	</filter-mapping>
+	
+	
+	<filter>
+		<filter-name>CompyFilter</filter-name>
+		<filter-class>com.filter.Compy_Filter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>CompyFilter</filter-name>
+		<url-pattern>/front-end/compy_table/front_CompyMembershipPlatform_info.jsp</url-pattern>
+		<url-pattern>/front-end/compy_table/front_CompyMembershipPlatform_info_updatePwd.jsp</url-pattern>
+		<url-pattern>/front-end/compy_table/front_CompyMembershipPlatform_info_updatePic.jsp</url-pattern>
+		<url-pattern>/front-end/compy_table/front_CompyMembershipPlatform_info_updateBusiness.jsp</url-pattern>
+		<url-pattern>/front-end/rest_table/front_CompyAddRest_info.jsp</url-pattern>
+  		<url-pattern>/front-end/rest_table/front_CompyAddPic.jsp</url-pattern>
+  		<url-pattern>/front-end/rest_table/front_CompyAddpic_Seat.jsp</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+		<dispatcher>INCLUDE</dispatcher>
+		<dispatcher>ERROR</dispatcher>
+		<dispatcher>ASYNC</dispatcher>
+	</filter-mapping>
+
+</web-app>

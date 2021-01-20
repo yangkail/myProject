@@ -1,0 +1,101 @@
+div.info_div div h1 {
+	font-size: 70px;
+	padding-top: 30px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-top: 50px;
+}
+
+div.info_div>div>hr {
+	height: 20px;
+	border: none;
+	border-top: 10px double #f4adad;
+}
+
+div.info_logo_info_out {
+	display: inline-block;
+}
+
+div.info_div_in_logo {
+	margin-left: 25px;
+}
+
+div.logo_info {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div.logo_display {
+	width: 230px;
+	height: 230px;
+	border: 15px solid #f5c704;
+	border-radius: 50%;
+	overflow: hidden;
+	text-align: center;
+	display: inline-block;
+	border-style: double;
+}
+
+img.logo_display_img {
+	width: 100%;
+	height: 100%;
+}
+
+div.view {
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	display: inline-block;
+	width: 237px;
+	height: 200px;
+	border: 2px solid #ff9400;
+	vertical-align: top;
+}
+
+img.view_pic_display_img1, img.view_pic_display_img2, img.view_pic_display_img3,
+	img.view_pic_display_img4, img.view_pic_display_img5 {
+	width: 100%;
+	height: 149px;
+}
+
+div.img {
+	width: 237px;
+}
+
+div.update_pic {
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	width: 1200px;
+	height: 400px;
+	border: 2px solid #ff9400;
+	margin-top: 10px;
+}
+
+div.img_pic {
+	text-align: center;
+	height: 400px;
+}
+
+img.pic_display_img {
+	width: 100%;
+	height: 360px;
+}
+
+div.submit_btn input {
+	float: right;
+	margin-right: 36px;
+	margin-top: 20px;
+	background-color: red;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+span.error_span{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:red;
+}

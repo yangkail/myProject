@@ -1,0 +1,359 @@
+
+/* div.h{ */
+/* overflow-y: scroll;  滾軸 */
+/* padding-right:10px; */
+/* height: 600px; */
+/* } */
+
+
+
+button.btn_modal {
+  width:120px;
+  height:40px;
+  font-size:20px;
+  font-weight: 900;
+  border:0;
+  background-color:orange;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+
+button.btn_modal_close{
+  width:120px;
+  height:40px;
+  font-size:20px;
+  font-weight: 900;
+  border:0;
+  background-color:orange;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+	
+	
+}
+
+button{
+  cursor: pointer;
+}
+div.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: hsla(0, 0%, 0%, .5);
+  
+  /* 預設：完全透明；設定 z-index: -1 會在整個頁面的後方，看不到，才不會擋到頁面元素。 */
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 1s;
+}
+div.overlay.-on{
+  
+  /* 加上 -on 之後，Modal 漸漸出現，因為有設定 transition */
+  opacity: 1;
+  z-index: 1;
+}
+
+div.overlay.-opacity-zero{
+  /* 關閉 Modal 時，先讓 opacity設定0，就會慢慢變成完全透明，但這時會擋到後面的元素，所以要再移除 -on 及 -opacity-zero 這兩個 class */
+  opacity: 0;
+}
+
+/* 元素 article 置中及基本樣式 */
+div.overlay > article{
+  background-color: white;
+  width: 50%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ddd;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+div.od1 {
+	background: Orange;
+	border-radius:10px;
+	width:1100px;
+	height:500px;
+	border:2px #d3d3d3 solid;
+	position:absolute;
+	top:150px;
+	left:400px
+
+}
+
+
+#type{
+/* 	border:1px 1px #0066C solid;  */	
+    border-collapse: collapse; 
+	width:300px;
+	
+	}
+#type td {
+	border:1px #0066CC solid; 
+	text-algin: center;
+	}
+	
+	
+#type th{
+	background-color:#0066CC; 
+	color:white;
+	
+	}
+#type {
+	margin-right:300px;
+	margin-bottom:-100px;
+	margin-top:20px; 
+	width:800px;
+	}
+
+.enter{
+	background-color: #0099CC; 
+	color:white
+	}
+
+
+
+/* #type123{border:1px 1px #0066C solid; border-collapse: collapse; width:auto;} */
+/* #type123 td{border:1px #0066CC solid; text-algin: center;} */
+/* #type123 th{background-color:#0066CC; color:white} */
+/* #type123 {margin-right:300px;margin-bottom:-100px;margin-top:20px; width:auto; } */
+/* #type123.enter{background-color: #0099CC; color:white} */
+
+
+/* #type123 { */
+/* 	border: 1px solid 	#272727;  */
+/*      font-size:14px;  */
+/*   	 text-align:center; */
+/*      white-space: nowrap; */
+/*      table-layout:fixed; */
+/*  	 font-weight: 900; */
+	
+/* } */
+
+
+.table, tr, th, td { 
+     border: 1px solid 	#272727; 
+     font-size:14px; 
+  	 text-align:center;
+     white-space: nowrap;
+     table-layout:fixed;
+ 	 font-weight: 900;
+ 	 background-color: #e0e0e0;
+
+  } 
+
+
+
+/* div.btn_1 input{ */
+/*   display:inline-block; */
+/*   position:absolute; */
+/*   margin-right:10px; */
+/*   left:105px;  */
+/*   top: 70px;  */
+/*   width:150px; */
+/*   height:50px; */
+/*   font-size:14px; */
+/*   font-weight: 900; */
+/*   border:0; */
+/*   background-color:	#46A3FF; */
+/*   color:#fff; */
+/*   border-radius:5px; */
+/*   cursor:pointer; */
+/*   } */
+  
+/*   div.btn_2 input{ */
+/*   display:inline-block; */
+/*   position:absolute; */
+/*   margin-right:10px; */
+/*   left:370px;  */
+/*   top: 70px;  */
+/*   width:150px; */
+/*   height:50px; */
+/*   font-size:14px; */
+/*   font-weight: 900; */
+/*   border:0; */
+/*   background-color:	#46A3FF; */
+/*   color:#fff; */
+/*   border-radius:5px; */
+/*   cursor:pointer; */
+/*   } */
+
+/*    div.btn_3 input{ */
+/*   display:inline-block; */
+/*   position:absolute; */
+/*   margin-right:10px; */
+/*   left:635px;  */
+/*   top: 70px;  */
+/*   width:150px; */
+/*   height:50px; */
+/*   font-size:14px; */
+/*   font-weight: 900; */
+/*   border:0; */
+/*   background-color:	#46A3FF; */
+/*   color:#fff; */
+/*   border-radius:5px; */
+/*   cursor:pointer; */
+/*   } */
+
+div.btn_1 {
+	display:inline-block;
+	
+	
+}
+
+div.btn_2 {
+	display:inline-block;
+}
+
+div.btn_3 {
+	display:inline-block;
+}
+
+div.btn_1 input{
+  display:inline-block;
+  margin-left:100px;
+  margin-bottom:20px;
+  width:120px;
+  height:40px;
+  font-size:20px;
+  font-weight: 900;
+  border:0;
+  background-color:	#46A3FF;
+  color:#fff;
+  border-radius:5px;
+  cursor:pointer;
+  }
+  
+ div.btn_2 input{
+  display:inline-block;
+  margin-left:125px;
+  margin-bottom:20px;
+  width:120px;
+  height:40px;
+  font-size:20px;
+  font-weight: 900;
+  border:0;
+  background-color:	#46A3FF;
+  color:#fff;
+  border-radius:5px;
+  cursor:pointer;
+  }
+
+ div.btn_3 input{
+  display:inline-block;
+  margin-left:150px;
+  margin-bottom:20px;
+  width:120px;
+  height:40px;
+  font-size:20px;
+  font-weight: 900;
+  border:0;
+  background-color:	#46A3FF;
+  color:#fff;
+  border-radius:5px;
+  cursor:pointer;
+  }
+
+
+
+div.btn_1 input:hover{
+  color:#46A3FF;
+  background-color:#fff;
+  border:2px #003C9D solid;
+}
+
+div.btn_2 input:hover{
+  color:#46A3FF;
+  background-color:#fff;
+  border:2px #003C9D solid;
+}
+
+div.btn_3 input:hover{
+  color:#46A3FF;
+  background-color:#fff;
+  border:2px #003C9D solid;
+}
+
+button_THREE_TYPE {
+  left:920px; 
+  top: -160px; 
+  width:120px;
+  height:50px;
+  font-size:20px;
+  font-weight: 900;
+  border:0;
+  background-color:orange;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+ #f {
+  left:920px; 
+  top: -160px; 
+  width:120px;
+  height:40px;
+  font-size:16px;
+  font-weight: 900;
+  border:0;
+  background-color:	red;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+
+
+
+ #ff {
+  left:920px; 
+  top: -160px; 
+  width:120px;
+  height:40px;
+  font-size:20px;
+  font-weight: 900;
+  border:0;
+  background-color:	orange;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+#fff {
+  left:920px; 
+  top: -160px; 
+  width:120px;
+  height:40px;
+  font-size:20px;
+  font-weight: 900;
+  border:0;
+  background-color:	red;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+
+/* div.page_select_btn1 { */
+/* 	margin-top: 35px; */
+/* 	margin-left:410px; */
+/* } */
+
+
+/* div.page_select_btn2 { */
+/* 	margin-top: 35px; */
+/* 	margin-left:410px; */
+}
+
+
+

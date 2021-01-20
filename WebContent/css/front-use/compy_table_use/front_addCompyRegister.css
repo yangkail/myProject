@@ -1,0 +1,72 @@
+div.top_div {
+	border: 2px solid black;
+	text-align: center;
+	background-color: #E5F1FA;
+	height: 200px;
+	margin-top: 194px;
+	line-height: 3;
+}
+
+div.top_div h1 {
+	font-size: 50px;
+	padding: 25px;
+}
+
+div.compy_info_div {
+	position: relative;
+	border: 2px solid black;
+	background-color: #D5F1ED;
+	margin: 10px 0 0 0;
+}
+
+span.star_display {
+	color: red;
+}
+
+button.reset_compy_info_btn {
+	display: inline-block;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+
+div.compy_contact_div {
+	position: relative;
+	border: 2px solid black;
+	background-color: #D5F1ED;
+	margin: 20px 0 0 0;
+}
+
+button.reset_compy_contact_btn {
+	display: inline-block;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+
+div.compy_account_pwd_div {
+	position: relative;
+	border: 2px solid black;
+	background-color: #D5F1ED;
+	margin: 20px 0 0 0;
+}
+
+button.reset_account_pwd_btn {
+	display: inline-block;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+
+div.submit_btn {
+	text-align: center;
+	margin: 30px 0 30px 0;
+}
+
+div.submit_btn input {
+	border: 2px solid black;
+	height: 50px;
+	color: white;
+	background-color: red;
+	font-size: large;
+}

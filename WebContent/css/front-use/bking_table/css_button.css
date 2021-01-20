@@ -1,0 +1,45 @@
+#callback {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 13px 24px;
+    border: 0px solid #a33f3f;
+    border-radius: 21px;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+    background: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    -webkit-box-shadow: #d64d1c 0px 0px 9px 1px;
+    -moz-box-shadow: #d64d1c 0px 0px 9px 1px;
+    box-shadow: #d64d1c 0px 0px 9px 1px;
+    text-shadow: #000000 0px 0px 0px;
+    font: normal normal bold 18px trebuchet ms;
+    color: #000000;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    border: 0px solid #ff6565;
+    color: #000000;
+    text-decoration: none;
+    background-color:#fff;
+}
+.button:active {
+    background: #000000;
+    background: -webkit-gradient(linear, left top, left bottom, from(#999999), to(#ffffff));
+    background: -moz-linear-gradient(top, #999999, #ffffff);
+    background: linear-gradient(to bottom, #999999, #ffffff);
+}
+.button:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACGUlEQVRIibWVPW7bQBCFv1moEHQAQYCd1lRBqAgQJG0KHiIHEQ8h3SN3MFimUKfCIBDJbRxASR0IKoR9KZak+W8nQabRcHbmzZsn7tAAx3+0EtwPnNfj3i/XTtHateNjvmsFfMsvwbyidGGwE7bTMl305fT5VgvWp2pMpChdCDJMcQhYDkrccXsamLyyssGgKUrnQAbEQC4DgxgpBxI7bn+O1df/g7Z+vgC/V2AeACEBckEs7L7I6ZMXwLfZV4elLEIrw3KMxI6bkx02J0KTB9BKkPkoXQxN0CuRj9K5QYbxzPywaUihaB2kMxuVqy2RVwBvyhJYNya04/YkSJByYbGwTMuuXA32dVnA+sCb7I7bEyIBPYBiQVa8wl2JGrJIuSBxL7whFbG79RyzmqRK7BBqDXC6SycYO6G3hhXgmxPNOzHq+3ARM0GMaW/Ge/u6vboixWHMDNvzDN6WZXwlhJrEYG+qGlcSeS3TKR5vj5+L4qeh/TRgtw4MLT8hj3OPm2ujQUh6MwG+ABP49u5PJILbHXAFPsLTtYxPmiw0BVsBM7o7acx3YB9AZ7Ap8KvMqTdwYaCG/e23wnWcJivRivfuGTp3w+o10N1FGkp8pd8hNibRzez1CnUveelM+rME2I/il57JWmbt8+qL1qZ4AfZg55BcLxwCr4DPoVaXOuH6PSia3Thw03HAcrK6L8Bf4PuwXj3P/+z/BhArFTvuX/j5AAAAAElFTkSuQmCC") no-repeat left center transparent;
+    background-size: 100% 100%;
+}

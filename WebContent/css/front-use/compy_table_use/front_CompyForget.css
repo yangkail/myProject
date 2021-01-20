@@ -1,0 +1,48 @@
+div.out_div {
+	width: 400px;
+	height: 400px;
+	border: 2px solid #0000002b;
+	margin: 280px auto;
+}
+
+div.in_div_title {
+	text-align: center;
+	font-size: larger;
+	font-weight: bold;
+	height: 50px;
+}
+
+div.in_div_title p {
+	padding: 15px;
+}
+
+div.in_div_content {
+	margin: 0 auto;
+	width: 350px;
+	height: 326px;
+	border: 2px solid #0000002b;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+}
+
+div.div_here1 {
+	margin: 0 auto;
+	width: 210px;
+	height: 60px;
+}
+
+div.div_here2 {
+	margin: 0 auto;
+	width: 210px;
+	height: 60px;
+}
+
+button.send_btn {
+	background-color: #f5bc07;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

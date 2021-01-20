@@ -1,0 +1,117 @@
+
+/* h3{ */
+/* text-align: center; */
+/* } */
+table{
+    width:400px;
+/*    border-collapse: collapse;  */
+   /*  格子各有一條線變成一條 */
+}
+td{
+    border-bottom: 1px solid white;padding:10px;
+}
+tr:nth-child(1){
+    background-color: orange;color:black;
+}
+tr:nth-child(3){
+    background-color: wheat;color:black;
+}
+tr:nth-child(5){
+    background-color: wheat;color:black;
+}
+tr:nth-child(even){
+    background-color: burlywood;
+
+}
+tr:nth-child(6){
+    background-color: orange;color:black;
+}
+.keyword{
+color:brown
+}
+
+/* 確認 */
+.btn {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 1px;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* 取消 */
+.btn1{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: gray;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 1px;
+}
+
+.btn1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn1 span:after {
+  content: '«';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn1:hover span {
+  padding-right: 25px;
+}
+
+.btn1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.content {
+width: 400px;
+}
+.box{
+}

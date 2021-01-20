@@ -1,0 +1,43 @@
+div.rest_display_in_here{
+	border: 5px outset #1c1b1a85;
+    height: 550px;
+    width: 1050px;
+    margin: 0 auto;
+    margin-top: 35px;
+    border-radius: 60px;
+}
+div.rest_pic_display_here{
+	width: 540px;
+    height: 540px;
+    display: inline-block;
+   
+}
+img.rest_pic_real_dsiplay{
+	width: 100%;
+    height: 100%;
+     border-radius: 60px 0px 0px 60px;
+}
+div.rest_info_in_here{    
+	width: 495px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+table.info_table {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+table.info_table tr td {
+	width: 220px;
+}
+tr.tr_not_do_some{
+	height: 50px;
+}
+tr.tr_not_do_some td{
+	border-top: 5px solid #dadb8d;
+}
+table.info_table tr td.info {
+	width: 700px;
+}

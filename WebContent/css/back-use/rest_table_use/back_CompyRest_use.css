@@ -1,0 +1,67 @@
+div.div_out {
+	display: inline-block;
+}
+
+div.div_submit {
+	display: inline-block;
+	vertical-align: top;
+}
+
+div.div_content {
+	position: relative;
+	border: 2px solid black;
+	margin: 15px auto;
+	background-color: #ddddf69e;
+}
+
+div.div_content1 {
+	display: inline-block;
+}
+
+div.div_content1 ul li {
+	list-style-type: none;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div.info_display1 {
+	display: inline-block;
+	width: 500px;
+}
+
+div.info_display2 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+div.search_div {
+	font-size: 40px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div.no_search_div {
+	text-align: center;
+}
+
+div.no_search_div img {
+	width: 1000px;
+	height: 370px;
+}
+button.audit_btn{
+	position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 30px;
+}
+div.title_word{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+div.div_content_delete {
+	position: relative;
+	background-color: darkgray;
+	border: 2px solid black;
+	margin: 15px auto;
+}

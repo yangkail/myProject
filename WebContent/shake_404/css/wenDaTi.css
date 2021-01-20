@@ -1,0 +1,13 @@
+.ask #wenDaTi{
+
+    width: 100px;
+    position: fixed;
+    bottom:0; 
+    left:0;
+    border-radius: 30px;
+}
+.ask #div_qrcode{
+    position: fixed;
+    bottom:100px; 
+    left:0;
+}
